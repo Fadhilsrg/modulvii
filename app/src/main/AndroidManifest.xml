@@ -14,7 +14,8 @@
         tools:targetApi="31" >
         <activity
             android:name=".HomeworkActivity"
-            android:exported="true" >
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,7 +24,8 @@
         </activity>
         <activity
             android:name=".AddHomeworkActivity"
-            android:exported="true" >
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         </activity>
     </application>
 

@@ -1,4 +1,5 @@
 package com.example.modulvii
+
 import android.provider.BaseColumns
 
 internal class DatabaseContract {

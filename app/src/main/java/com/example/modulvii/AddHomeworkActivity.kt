@@ -125,9 +125,6 @@ class AddHomeworkActivity : AppCompatActivity() {
         return dateFormat.format(java.util.Date())
     }
 
-    override fun onBackPressed() {
-        showAlertDialog(ALERT_DIALOG_CLOSE)
-    }
 
     private fun showAlertDialog(type: Int) {
         val dialogTitle: String
